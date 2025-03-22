@@ -36,6 +36,19 @@
         body {
             margin-top: 50px; /* Prevents content from being covered by nav */
             font-family: Arial, sans-serif;
+            min-height: 100vh; /* Ensures full page height */
+            display: flex;
+            flex-direction: column;
+        }
+        #projects {
+            flex: 1; /* Allows content to expand naturally */
+            padding-bottom: 50px; /* Prevents footer from getting cut off */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
         }
     </style>
 </head>
